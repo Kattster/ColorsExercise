@@ -1,0 +1,52 @@
+/* color name*/
+h1 {
+    background-color: firebrick;
+    color: violet
+}
+
+/*hexadecimal*/
+h2 {
+    background-color: #f08800;
+    color: #4b0082
+}
+
+/*hexadecimal shorthand */
+h3 {
+    background-color: #ff6;
+    color: #15c;
+}
+
+/*hexadecimal with transparency */
+h4 {
+    background-color: #00ff00;
+    color:#006400
+}
+
+/*hexadecimal with transparency shorthand, */
+h5 {
+    background-color: #00ff;
+    color: #fffb00
+}
+
+/*RGB*/
+h6 {
+    background-color: rgb(130, 24, 216);
+    color: rgb(238, 139, 57)
+}
+
+/*RGBA */
+p {
+    background-color: rgba(169, 4, 202, 0.849);
+    color: rgba(241, 82, 74, 0.932);
+    
+}
+
+.multicolortext {
+    background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  
